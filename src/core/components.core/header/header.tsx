@@ -11,13 +11,6 @@ export function Header() {
     <>
       <header className="header">
         <div className="header__logosandname">
-          <div className="header__containlogosleft">
-            <img
-              src="/logosleft.png"
-              alt="Logos programación"
-              className="header__left"
-            />
-          </div>
           <section className="header__center">
             <Link to={"/"}>
               {" "}
@@ -31,13 +24,6 @@ export function Header() {
               alt="Git Hub logo"
             />
           </section>
-          <div className="header__containlogosright">
-            <img
-              src="/logosright.png"
-              alt="Logos programación"
-              className="header__right"
-            />
-          </div>
         </div>
         <hr className="header__hr" />
       </header>

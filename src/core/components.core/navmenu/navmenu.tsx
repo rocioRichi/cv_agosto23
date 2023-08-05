@@ -8,7 +8,6 @@ export function Navmenu() {
       <section className="navmenu__uplayer">
         <section className="navmenu__upcenter">
           <Topic topic={"Contact"} whereDoWeGo={"contact"} />
-          <Topic topic={"Technologies"} whereDoWeGo={"technologies"}></Topic>
         </section>
       </section>
 
@@ -29,7 +28,7 @@ export function Navmenu() {
       </section>
 
       <section className="navmenu__down">
-        <Topic topic={"Work Experience"} whereDoWeGo={"experience"}></Topic>
+        <Topic topic={"Technologies"} whereDoWeGo={"technologies"}></Topic>
       </section>
     </div>
   );

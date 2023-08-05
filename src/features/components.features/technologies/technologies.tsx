@@ -22,6 +22,22 @@ export function Technologies() {
         <li>Trello</li>
         <li>Discord, Slack</li>
       </ul>
+      <div className="technologies__alllogos">
+        <div className="header__containlogosleft">
+          <img
+            src="/logosleft.png"
+            alt="Logos programación"
+            className="header__left"
+          />
+        </div>
+        <div className="header__containlogosright">
+          <img
+            src="/logosright.png"
+            alt="Logos programación"
+            className="header__right"
+          />
+        </div>
+      </div>
     </section>
   );
 }
