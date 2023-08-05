@@ -1,0 +1,18 @@
+.app__main > {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  height: 50vh;
+}
+.app_infodisplay {
+  display: flex;
+  justify-content: space-around;
+}
+
+.app_infodisplaybox {
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  border-style: dotted;
+  font-size: 0.9em;
+}

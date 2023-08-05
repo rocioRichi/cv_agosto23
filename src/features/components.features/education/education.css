@@ -1,0 +1,27 @@
+.education {
+  display: flex;
+  flex-direction: column;
+}
+.education__ul {
+  display: flex;
+  flex-direction: column;
+  font-size: medium;
+  padding: 0.5em;
+  list-style: none;
+}
+.education__ul li {
+  padding: 0.2em;
+}
+.education__bold {
+  font-weight: 400;
+}
+.education__li {
+  display: flex;
+  justify-content: center;
+  margin: 1 em;
+}
+.lalala {
+  color: blue;
+  display: flex;
+  justify-self: center;
+}

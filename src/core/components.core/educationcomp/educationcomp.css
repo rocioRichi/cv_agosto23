@@ -1,0 +1,25 @@
+.educationcomp {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: 0.5em;
+}
+.educationcomp__date {
+  display: flex;
+  justify-content: center;
+}
+.educationcomp__certificate {
+  display: flex;
+  justify-content: center;
+
+  font-weight: 700;
+}
+.educationcomp__trainingcenter {
+  display: flex;
+  justify-content: center;
+
+  font-style: italic;
+}
+.educationcomp__hr {
+  margin: 0.3em;
+}
