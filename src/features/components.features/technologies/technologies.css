@@ -14,3 +14,6 @@
   display: flex;
   align-self: center;
 }
+.technologies__alllogos {
+  display: flex;
+}
